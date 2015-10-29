@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+body {
+	background-image:linear-gradient(forestgreen, grey);
+	padding: 0% 10% 0% 10%;
+	margin: 0%;
+	color: black;
+    font-family: monospace
+}
+
+a {
+	text-decoration: none;
+	color: limegreen;
+    
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#cadre {
+	background-image:linear-gradient(grey, forestgreen);
+	border-right: double 3px black;
+	border-left: double 3px #000000;
+	padding: 20px;
+}
+
+header {
+	margin: 0px;
+	padding: 6px 6px 85px 6px;
+    
+}
+
+#tete1 {
+	float: left;
+}
+
+#tete2 {
+	float: right;
+	text-align: right;
+}
+
+h1 {
+	font-size: 18px;
+	margin: 1px 0px 1px 0px;
+}
+
+nav {
+	border: double 3px;
+	border-radius: 25px;
+	font-size: 25px;
+	text-align : center;
+	margin: 35px;
+	padding: 5px;
+	border-color: black;
+	clear: both;
+}
+
+nav span {
+	Font-size: 25px;
+}
+
+aside {
+	position: absolute;
+	margin: 0px 65% 0px 0px;
+	padding: 6px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	border: groove 1px #000066;
+}
+#description {
+	text-align: center;
+    
+}
+
+article {
+	margin: 3px 3px 3px 31%;
+	padding: 6px;
+	border-left: 3px solid #000000;
+}
+
+h2 {
+	border-bottom: solid 3px;
+	color: black;
+}
+
+.date {
+	font-weight: bold;
+	color: black;
+	margin-top: 10px;
+}
+
+.poste span {
+	color: #333333;
+	font-size: 12px;
+}
+
+footer {
+	margin: 3px;
+	padding: 6px;
+}
+
+.haut {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+/* Css Contact */
+table {
+	width: 500px;
+}
+
+td {
+	width: 10%;
+}
+
+legend {
+	color: black;
+	font-weight: bold;
+}
+
+fieldset {
+	border: solid 4px black;
+	border-radius: 10px;
+}
+
+label {
+	font-size: 14px;
+}
+
+fieldset input {
+	background-color: dimgrey;
+	border-radius: 10px;
+}
+
+fieldset textarea {
+	background-color: dimgrey;
+	border-radius: 10px;
+}
+
+fieldset select {
+	background-color: dimgrey;
+	border-radius: 10px;
+}
+
+.bouton {
+	display: block;
+	margin: auto;
+}

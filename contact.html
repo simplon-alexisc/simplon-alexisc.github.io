@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Curiculum Vitae</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="cadre">
+  
+            <header>
+    
+                <div id="tete1">
+      
+                    <h1>Alexis Chalono</h1>
+      
+                    9 Avenue d'Argeliers<br />
+      
+                    Tél : 07.81.31.12.45<br />
+                    Mail :<a href="mailto:chalono.alexis@gmail.com">chalono.alexis@gmail.com</a> </div>
+    
+                <div id="tete2"> Né le 01/04/1996<br />
+      
+                    À Ouveillan<br />
+      
+                    En couple<br />
+      
+                    Pas le permis<br />
+    
+                </div>
+  
+            </header>
+  
+            <nav> 
+                
+                <span>[</span><a href="index.html#formation">Formations</a><span>]</span>
+                
+                <span>[</span><a href="index.html#experiance">Expériences</a><span>]</span>
+                
+                <span>[</span><a href="index.html#autre">Divers</a><span>]</span>
+                
+                <span>[</span><a href="contact.html">Contact</a><span>]</span> 
+            
+            </nav>
+  
+            <aside>
+    
+                <h2>Qui suis je ?</h2>
+    
+                <img src="photos.jpg" alt="Profil" height="230" width="230" /><br />
+   
+                <div id="description">Je suis un jeune passioné d'informatique , je suis quelqun de très dynamique et très pointilleux , je cherche toujours à améliorer les projets sur lesquelles je travail , toujours à l'écoute je suis capable de répondre à tout les besoins.
+                </div>
+  
+            </aside>
+  
+            <article>
+    
+                <h2>Contactez moi</h2>
+   
+                <form method="post" action="resultat.php">
+      
+                    <fieldset>
+       
+                        <legend>Information civile</legend>
+        
+                        <table>
+          
+                            <tr>
+            
+                                <td>
+                                    
+                                    <label for="titre">Titre de civilité * :</label>
+                                
+                                </td>
+            
+                                <td>
+                                    
+                                    <select name="titre" id="titre" size="1" required>
+                
+                                    <option value="na" selected>&nbsp;</option>
+                
+                                    <option value="Mr">Mr</option>
+                
+                                    <option value="Mme">Mme</option>
+                
+                                    <option value="Mlle"> Mlle</option>
+              
+                                    </select>
+                                
+                                </td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td><label for="nom">Nom * :</label></td>
+            
+                                <td><input type="text" name="nom" id="nom" required /></td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td><label for="prenom">Prénom * :</label></td>
+            
+                                <td><input type="text" name="prenom" id="prenom" required /></td>
+          
+                            </tr>
+        
+                        </table>
+      
+                    </fieldset>
+      
+                    <br />
+      
+                    <fieldset>
+        
+                        <legend>Vos Coordonners</legend>
+        
+                        <table>
+          
+                            <tr>
+            
+                                <td><label for="adresse">Adresse :</label></td>
+            
+                                <td><input type="text" name="adresse" id="adresse" /></td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td><label for="ville">Ville :</label></td>
+            
+                                <td><input type="text" name="ville" id="ville"/></td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td><label for="cp">Code Postal :</label></td>
+            
+                                <td><input type="text" name="cp" id="cp" /></td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td>
+                                    
+                                    <label for="site">Site Web :</label> 
+                                
+                                </td>
+            
+                                <td>
+                                    
+                                    <input type="url" name="site" id="site" /></td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td>
+                                    
+                                    <label for="mail">Mail * :</label>
+                                
+                                </td>
+            
+                                <td>
+                                    
+                                    <input type="email" name="mail" id="mail" required />
+                                
+                                </td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td>
+                                    
+                                    <label for="tel">Téléphonne :</label>
+                                
+                                </td>
+            
+                                <td>
+                                    
+                                    <input type="tel" name="tel" id="tel" />
+                                
+                                </td>
+          
+                            </tr>
+        
+                        </table>
+      
+                    </fieldset>
+      
+                    <br />
+      
+                    <fieldset>
+        
+                        <legend>Details du message</legend>
+        
+                        <table>
+          
+                            <tr>
+            
+                                <td>
+                                    
+                                    <label for="sujet">Sujet * :</label>
+                                
+                                </td>
+            
+                                <td>
+                                    
+                                    <input type="text" name="sujet" id="sujet" required />
+                                
+                                </td>
+          
+                            </tr>
+          
+                            <tr>
+            
+                                <td>
+                                    
+                                    <label for="msg">Message * :</label>
+                                
+                                </td>
+            
+                                <td>
+                                    
+                                    <textarea name="msg" id="msg" rows="10" cols="31" required></textarea>
+                                
+                                </td>
+          
+                            </tr>
+        
+                        </table>
+      
+                    </fieldset>
+      
+                    <br />
+                    
+                    <input class="bouton" type="submit" onClick="envoyer();" value="Envoyer" />
+    
+                </form>
+  
+            </article>
+  
+            <footer> 
+    
+            
+  
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>
